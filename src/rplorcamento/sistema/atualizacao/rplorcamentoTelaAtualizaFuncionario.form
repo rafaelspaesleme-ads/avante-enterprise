@@ -1,0 +1,2077 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Arquivo"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+Alt+F4"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Fechar Tela"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Editor"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+Alt+S"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Salvar"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+Alt+A"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Atualizar"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+Alt+E"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Excluir"/>
+              </Properties>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+Alt+L"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Listar"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem5ActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Shift+Alt+I"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Imprimir"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ajuda"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="F1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Contato do desenvolvedor"/>
+              </Properties>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowActivated" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowActivated"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EtchedBorderInfo">
+            <EtchetBorder/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel4" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jPanel2" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel4" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="cc" red="cc" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jText_observacao" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jLabel16" alignment="0" pref="177" max="32767" attributes="0"/>
+                                  <Component id="jText_bairro" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jText_cidade" max="32767" attributes="0"/>
+                                  <Component id="jLabel17" pref="211" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jText_uf" max="32767" attributes="0"/>
+                                  <Component id="jLabel18" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jText_telefone" max="32767" attributes="0"/>
+                                  <Component id="jLabel19" pref="113" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel20" max="32767" attributes="0"/>
+                                  <Component id="jText_celular" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jText_rg" pref="107" max="32767" attributes="0"/>
+                                  <Component id="jLabel9" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel10" max="32767" attributes="0"/>
+                                  <Component id="jText_cpf" pref="113" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jCbx_cargo" pref="170" max="32767" attributes="0"/>
+                                  <Component id="jLabel11" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jCbx_departamento" max="32767" attributes="0"/>
+                                  <Component id="jLabel12" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jCbx_setor" max="32767" attributes="0"/>
+                                  <Component id="jLabel13" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jLabel21" alignment="0" pref="273" max="32767" attributes="0"/>
+                                  <Component id="jText_email" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jText_admicao" max="32767" attributes="0"/>
+                                  <Component id="jLabel22" pref="106" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jChbx_desligamento" max="32767" attributes="0"/>
+                                  <Component id="jText_desligamento" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel23" max="32767" attributes="0"/>
+                                  <Component id="jText_motivoDesligamento" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jText_endereco" min="-2" pref="449" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jText_referencia" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel14" min="-2" pref="449" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel15" pref="334" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jText_codigo" max="32767" attributes="0"/>
+                                  <Component id="jLabel1" pref="94" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jText_nome" max="32767" attributes="0"/>
+                                  <Component id="jLabel2" pref="399" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel3" min="-2" pref="212" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jText_cracha" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jLabel5" alignment="0" pref="116" max="32767" attributes="0"/>
+                                  <Component id="jText_nascimento" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jText_ctps" max="32767" attributes="0"/>
+                                  <Component id="jLabel6" pref="179" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jText_pis" max="32767" attributes="0"/>
+                                  <Component id="jLabel7" pref="167" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel8" min="-2" pref="138" max="-2" attributes="0"/>
+                                  <Component id="jText_matricula" min="-2" pref="188" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jText_situacao" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jText_codigo" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_nome" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_cracha" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jText_nascimento" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jText_ctps" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jText_pis" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jText_matricula" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jText_situacao" alignment="1" min="-2" pref="45" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jCbx_setor" alignment="1" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jText_rg" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jText_cpf" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCbx_cargo" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jCbx_departamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jText_endereco" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_referencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jText_bairro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_cidade" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_uf" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_telefone" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_celular" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jChbx_desligamento" alignment="3" min="-2" pref="14" max="-2" attributes="0"/>
+                          <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jText_email" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_admicao" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_desligamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jText_motivoDesligamento" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jText_observacao" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="C&#xf3;digo:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_codigo">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="ff" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome do Funcion&#xe1;rio:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_nome">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome no Crach&#xe1;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_cracha">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel5">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nascimento:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jText_nascimento">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="##/##/####" subtype="-1" type="5"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel6">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="CTPS:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_ctps">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cart&#xe3;o Cidad&#xe3;o / PIS:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_pis">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel8">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Matr&#xed;cula:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jText_situacao">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="selected" type="boolean" value="true"/>
+                <Property name="text" type="java.lang.String" value="Ativo"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jText_situacaoMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_matricula">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="A matr&#xed;cula &#xe9; inserida automaticamente ao final do cadastro."/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel9">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="RG:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jText_rg">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="##.###.###-##" subtype="-1" type="5"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="CPF:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jText_cpf">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="###.###.###-##" subtype="-1" type="5"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cargo:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jCbx_cargo">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="726">
+                    <StringItem index="0" value="Selecione um cargo"/>
+                    <StringItem index="1" value="A"/>
+                    <StringItem index="2" value="- Administrador de Banco de Dados"/>
+                    <StringItem index="3" value="- A&#xe7;ougueiro"/>
+                    <StringItem index="4" value="- Acompanhante de Idosos"/>
+                    <StringItem index="5" value="- Acupunturista"/>
+                    <StringItem index="6" value="- Administrador de Empresas"/>
+                    <StringItem index="7" value="- Administrador de Redes"/>
+                    <StringItem index="8" value="- Administrador de Redes Junior"/>
+                    <StringItem index="9" value="- Administrador de Redes Pleno"/>
+                    <StringItem index="10" value="- Administrador de Redes S&#xea;nior"/>
+                    <StringItem index="11" value="- Administrador de Sistemas"/>
+                    <StringItem index="12" value="- Administrador Hospitalar"/>
+                    <StringItem index="13" value="- Administrador P&#xfa;blico"/>
+                    <StringItem index="14" value="- Advogado"/>
+                    <StringItem index="15" value="- Advogado Civil"/>
+                    <StringItem index="16" value="- Aeronauta"/>
+                    <StringItem index="17" value="- Afiador de Ferramentas"/>
+                    <StringItem index="18" value="- Agente Comunit&#xe1;rio de Sa&#xfa;de"/>
+                    <StringItem index="19" value="- Agente de Defesa Sanit&#xe1;ria"/>
+                    <StringItem index="20" value="- Agente de Viagens"/>
+                    <StringItem index="21" value="- Agente Funer&#xe1;rio"/>
+                    <StringItem index="22" value="- Agente Penitenci&#xe1;rio"/>
+                    <StringItem index="23" value="- Agricultor"/>
+                    <StringItem index="24" value="- Agr&#xf4;nomo"/>
+                    <StringItem index="25" value="- Ajudante de Motorista"/>
+                    <StringItem index="26" value="- Ajudante de Transportes"/>
+                    <StringItem index="27" value="- Alfaiate"/>
+                    <StringItem index="28" value="- Almirante"/>
+                    <StringItem index="29" value="- Almoxarife"/>
+                    <StringItem index="30" value="- Ambientalista"/>
+                    <StringItem index="31" value="- Ambulante"/>
+                    <StringItem index="32" value="- Analista Administrativo"/>
+                    <StringItem index="33" value="- Analista Administrativo de Vendas"/>
+                    <StringItem index="34" value="- Analista Administrativo Financeiro"/>
+                    <StringItem index="35" value="- Analista Ambiental"/>
+                    <StringItem index="36" value="- Analista Comercial Interno"/>
+                    <StringItem index="37" value="- Analista Comercial Externo"/>
+                    <StringItem index="38" value="- Analista de Atendimento a Clientes"/>
+                    <StringItem index="39" value="- Analista de Atendimento Comercial"/>
+                    <StringItem index="40" value="- Analista de Banco"/>
+                    <StringItem index="41" value="- Analista de Banco de Dados"/>
+                    <StringItem index="42" value="- Analista de Cargos e Sal&#xe1;rios"/>
+                    <StringItem index="43" value="- Analista de Cobran&#xe7;a"/>
+                    <StringItem index="44" value="- Analista de Com&#xe9;rcio Exterior"/>
+                    <StringItem index="45" value="- Analista de Compras"/>
+                    <StringItem index="46" value="- Analista de Comunica&#xe7;&#xe3;o"/>
+                    <StringItem index="47" value="- Analista de Contabilidade"/>
+                    <StringItem index="48" value="- Analista de Contas a Pagar e Receber"/>
+                    <StringItem index="49" value="- Analista de Controladoria"/>
+                    <StringItem index="50" value="- Analista de Controladoria Junior"/>
+                    <StringItem index="51" value="- Analista de Controladoria Pleno"/>
+                    <StringItem index="52" value="- Analista de Controladoria S&#xea;nior"/>
+                    <StringItem index="53" value="- Analista de Controle de Qualidade"/>
+                    <StringItem index="54" value="- Analista de Cr&#xe9;dito e Cobran&#xe7;a"/>
+                    <StringItem index="55" value="- Analista de Custos"/>
+                    <StringItem index="56" value="- Analista de Departamento Pessoal"/>
+                    <StringItem index="57" value="- Analista de Desenvolvimento de Produto"/>
+                    <StringItem index="58" value="- Analista de Desenvolvimento de Sistemas"/>
+                    <StringItem index="59" value="- Analista de Desenvolvimento Web"/>
+                    <StringItem index="60" value="- Analista de Distribui&#xe7;&#xe3;o"/>
+                    <StringItem index="61" value="- Analista de E-commerce"/>
+                    <StringItem index="62" value="- Analista de Estoque"/>
+                    <StringItem index="63" value="- Analista de Engenharia El&#xe9;trica"/>
+                    <StringItem index="64" value="- Analista Financeiro"/>
+                    <StringItem index="65" value="- Analista de Fiscal"/>
+                    <StringItem index="66" value="- Analista Qu&#xed;mico"/>
+                    <StringItem index="67" value="- Anestesiologista"/>
+                    <StringItem index="68" value="- Angiologista"/>
+                    <StringItem index="69" value="- Antrop&#xf3;logo"/>
+                    <StringItem index="70" value="- Apicultor"/>
+                    <StringItem index="71" value="- Apresentador"/>
+                    <StringItem index="72" value="- Argumentista"/>
+                    <StringItem index="73" value="- Armador"/>
+                    <StringItem index="74" value="- Armeiro"/>
+                    <StringItem index="75" value="- Arquiteto"/>
+                    <StringItem index="76" value="- Arquiteto de Interiores"/>
+                    <StringItem index="77" value="- Arquiteto Paisagista"/>
+                    <StringItem index="78" value="- Arquiteto Urbanista"/>
+                    <StringItem index="79" value="- Arquiteto Projetista"/>
+                    <StringItem index="80" value="- Arquiteto Vendedor"/>
+                    <StringItem index="81" value="- Arquivista"/>
+                    <StringItem index="82" value="- Arrumadeira"/>
+                    <StringItem index="83" value="- Artista de Espet&#xe1;culo de Divers&#xf5;es"/>
+                    <StringItem index="84" value="- Artista Pl&#xe1;stico"/>
+                    <StringItem index="85" value="- Ascensorista"/>
+                    <StringItem index="86" value="- Assessor de Imprensa"/>
+                    <StringItem index="87" value="- Analista de Fundi&#xe7;&#xe3;o"/>
+                    <StringItem index="88" value="- Analista de Inform&#xe1;tica"/>
+                    <StringItem index="89" value="- Analista de Investimentos"/>
+                    <StringItem index="90" value="- Analista de Log&#xed;stica"/>
+                    <StringItem index="91" value="- Analista de Loja"/>
+                    <StringItem index="92" value="- Analista de Manuten&#xe7;&#xe3;o"/>
+                    <StringItem index="93" value="- Analista de Manuten&#xe7;&#xe3;o El&#xe9;trica"/>
+                    <StringItem index="94" value="- Analista de Marketing"/>
+                    <StringItem index="95" value="- Analista de PCP"/>
+                    <StringItem index="96" value="- Analista de Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="97" value="- Analista de Programa&#xe7;&#xe3;o"/>
+                    <StringItem index="98" value="- Analista de Publicidade e Propaganda"/>
+                    <StringItem index="99" value="- Analista de Qualidade"/>
+                    <StringItem index="100" value="- Analista de Recrutamento e Sele&#xe7;&#xe3;o"/>
+                    <StringItem index="101" value="- Analista de Recursos Humanos"/>
+                    <StringItem index="102" value="- Analista de Redes"/>
+                    <StringItem index="103" value="- Analista de Rela&#xe7;&#xf5;es P&#xfa;blicas"/>
+                    <StringItem index="104" value="- Analista de Representa&#xe7;&#xe3;o Comercial"/>
+                    <StringItem index="105" value="- Analista de SAC"/>
+                    <StringItem index="106" value="- Analista de Seguran&#xe7;a Patrimonial"/>
+                    <StringItem index="107" value="- Analista de Seguros"/>
+                    <StringItem index="108" value="- Analista de Sistemas"/>
+                    <StringItem index="109" value="- Analista de Suporte T&#xe9;cnico"/>
+                    <StringItem index="110" value="- Analista de Suprimentos"/>
+                    <StringItem index="111" value="- Analista de Tecnologia da Informa&#xe7;&#xe3;o (TI)"/>
+                    <StringItem index="112" value="- Analista de Telecomunica&#xe7;&#xf5;es"/>
+                    <StringItem index="113" value="- Analista de Telemarketing Ativo"/>
+                    <StringItem index="114" value="- Analista de Telemarketing Receptivo"/>
+                    <StringItem index="115" value="- Analista de Tesouraria"/>
+                    <StringItem index="116" value="- Analista de Transportes"/>
+                    <StringItem index="117" value="- Analista de Treinamento"/>
+                    <StringItem index="118" value="- Analista de Treinamento S&#xea;nior"/>
+                    <StringItem index="119" value="- Analista Econ&#xf4;mico"/>
+                    <StringItem index="120" value="- Assistente Comercial Interno"/>
+                    <StringItem index="121" value="- Assistente de Almoxarifado"/>
+                    <StringItem index="122" value="- Assistente de Arquitetura"/>
+                    <StringItem index="123" value="- Assistente Administrativo"/>
+                    <StringItem index="124" value="- Assistente de Atendimento a Clientes"/>
+                    <StringItem index="125" value="- Assistente de Atendimento Comercial"/>
+                    <StringItem index="126" value="- Assistente de Cobran&#xe7;a"/>
+                    <StringItem index="127" value="- Assistente de Com&#xe9;rcio Exterior"/>
+                    <StringItem index="128" value="- Assistente de Compras"/>
+                    <StringItem index="129" value="- Assistente de Comunica&#xe7;&#xe3;o"/>
+                    <StringItem index="130" value="- Assistente de Contabilidade"/>
+                    <StringItem index="131" value="- Assistente de Contas a Pagar e Receber"/>
+                    <StringItem index="132" value="- Assistente de Controladoria"/>
+                    <StringItem index="133" value="- Assistente de Controle de Qualidade"/>
+                    <StringItem index="134" value="- Assistente de Cozinha"/>
+                    <StringItem index="135" value="- Assistente de Cr&#xe9;dito e Cobran&#xe7;a"/>
+                    <StringItem index="136" value="- Assistente de Custos"/>
+                    <StringItem index="137" value="- Assistente de Departamento Pessoal"/>
+                    <StringItem index="138" value="- Assistente de Desenvolvimento de Produto"/>
+                    <StringItem index="139" value="- Assistente de Desenvolvimento de Sistemas"/>
+                    <StringItem index="140" value="- Assistente de Distribui&#xe7;&#xe3;o"/>
+                    <StringItem index="141" value="- Assistente de E-commerce"/>
+                    <StringItem index="142" value="- Assistente de Enfermagem"/>
+                    <StringItem index="143" value="- Assistente de Engenharia El&#xe9;trica"/>
+                    <StringItem index="144" value="- Assistente de Estoque"/>
+                    <StringItem index="145" value="- Assistente Financeiro"/>
+                    <StringItem index="146" value="- Assistente de Inform&#xe1;tica"/>
+                    <StringItem index="147" value="- Assistente de Jornalismo"/>
+                    <StringItem index="148" value="- Assistente de Limpeza"/>
+                    <StringItem index="149" value="- Assistente de Log&#xed;stica"/>
+                    <StringItem index="150" value="- Assistente de Loja"/>
+                    <StringItem index="151" value="- Assistente de Manuten&#xe7;&#xe3;o"/>
+                    <StringItem index="152" value="- Assistente de Manuten&#xe7;&#xe3;o El&#xe9;trica"/>
+                    <StringItem index="153" value="- Assistente de Marketing"/>
+                    <StringItem index="154" value="- Assistente de PCP"/>
+                    <StringItem index="155" value="- Assistente de Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="156" value="- Assistente de Publicidade e Propaganda"/>
+                    <StringItem index="157" value="- Assistente de Qualidade"/>
+                    <StringItem index="158" value="- Assistente de Recrutamento e Sele&#xe7;&#xe3;o"/>
+                    <StringItem index="159" value="- Assistente de Recursos Humanos"/>
+                    <StringItem index="160" value="- Assistente de Representa&#xe7;&#xe3;o Comercial"/>
+                    <StringItem index="161" value="- Assistente de SAC"/>
+                    <StringItem index="162" value="- Assistente de Seguros"/>
+                    <StringItem index="163" value="- Assistente de Sistemas"/>
+                    <StringItem index="164" value="- Assistente de Suporte T&#xe9;cnico"/>
+                    <StringItem index="165" value="- Assistente de Suprimentos"/>
+                    <StringItem index="166" value="- Assistente de Tecnologia da Informa&#xe7;&#xe3;o (TI)"/>
+                    <StringItem index="167" value="- Assistente de Telecomunica&#xe7;&#xf5;es"/>
+                    <StringItem index="168" value="- Assistente de Telemarketing Ativo"/>
+                    <StringItem index="169" value="- Assistente de Telemarketing Receptivo"/>
+                    <StringItem index="170" value="- Assistente de Tesouraria"/>
+                    <StringItem index="171" value="- Assistente de Transportes"/>
+                    <StringItem index="172" value="- Assistente de Treinamento"/>
+                    <StringItem index="173" value="- Assistente de Vendas Externas"/>
+                    <StringItem index="174" value="- Assistente Editorial"/>
+                    <StringItem index="175" value="- Assistente Fiscal"/>
+                    <StringItem index="176" value="- Assistente Social"/>
+                    <StringItem index="177" value="- Astr&#xf4;nomo"/>
+                    <StringItem index="178" value="- Atendente"/>
+                    <StringItem index="179" value="- Atendente de Ag&#xea;ncia"/>
+                    <StringItem index="180" value="- Atendente Distribuidor"/>
+                    <StringItem index="181" value="- Auditor Ambiental"/>
+                    <StringItem index="182" value="- Auditor de Qualidade"/>
+                    <StringItem index="183" value="- Auditor Externo"/>
+                    <StringItem index="184" value="- Auditor Interno"/>
+                    <StringItem index="185" value="- Auxiliar de Almoxarifado"/>
+                    <StringItem index="186" value="- Auxiliar de Almoxarife"/>
+                    <StringItem index="187" value="- Auxiliar de Arquivo"/>
+                    <StringItem index="188" value="- Auxiliar de Banco de Dados"/>
+                    <StringItem index="189" value="- Auxiliar de Biblioteca"/>
+                    <StringItem index="190" value="- Auxiliar de Com&#xe9;rcio Exterior"/>
+                    <StringItem index="191" value="- Auxiliar de Contas a Pagar e Receber"/>
+                    <StringItem index="192" value="- Auxiliar de Controle de Qualidade"/>
+                    <StringItem index="193" value="- Auxiliar de Cozinha"/>
+                    <StringItem index="194" value="- Auxiliar de Cr&#xe9;dito e Cobran&#xe7;a"/>
+                    <StringItem index="195" value="- Auxiliar de Custos"/>
+                    <StringItem index="196" value="- Auxiliar de Distribui&#xe7;&#xe3;o"/>
+                    <StringItem index="197" value="- Auxiliar de Engenharia de Seguran&#xe7;a do Trabalho"/>
+                    <StringItem index="198" value="- Auviliar de Escrit&#xf3;rio"/>
+                    <StringItem index="199" value="- Auxiliar de Fundi&#xe7;&#xe3;o"/>
+                    <StringItem index="200" value="- Auxiliar de Instala&#xe7;&#xe3;o"/>
+                    <StringItem index="201" value="- Auxiliar de Limpeza"/>
+                    <StringItem index="202" value="- Auxiliar de Manuten&#xe7;&#xe3;o Hidr&#xe1;ulica"/>
+                    <StringItem index="203" value="- Auxiliar de Padeiro"/>
+                    <StringItem index="204" value="- Auxiliar de PCP"/>
+                    <StringItem index="205" value="- Auxiliar de Programa&#xe7;&#xe3;o"/>
+                    <StringItem index="206" value="- Auxiliar de SAC"/>
+                    <StringItem index="207" value="- Auxiliar de Seguran&#xe7;a"/>
+                    <StringItem index="208" value="- Auxiliar de Serralheiro"/>
+                    <StringItem index="209" value="- Auxiliar de Suprimentos"/>
+                    <StringItem index="210" value="- Auxiliar de Topografia"/>
+                    <StringItem index="211" value="- Auxiliar de Transportes"/>
+                    <StringItem index="212" value="- Auxiliar de Usinagem"/>
+                    <StringItem index="213" value="- Auxiliar de Veterin&#xe1;ria"/>
+                    <StringItem index="214" value="- Auxiliar de Web Design"/>
+                    <StringItem index="215" value="- Auxiliar Econ&#xf4;mico"/>
+                    <StringItem index="216" value="- Auxiliar Fiscal"/>
+                    <StringItem index="217" value="- Auxiliar Jur&#xed;dico"/>
+                    <StringItem index="218" value="B"/>
+                    <StringItem index="219" value="- Bartender"/>
+                    <StringItem index="220" value="- Bab&#xe1;"/>
+                    <StringItem index="221" value="- Balconista"/>
+                    <StringItem index="222" value="- Banc&#xe1;rio"/>
+                    <StringItem index="223" value="- Barman"/>
+                    <StringItem index="224" value="- Biblioteconista"/>
+                    <StringItem index="225" value="- Bi&#xf3;logo"/>
+                    <StringItem index="226" value="- Biom&#xe9;dico"/>
+                    <StringItem index="227" value="- Bioqu&#xed;mico"/>
+                    <StringItem index="228" value="- Biotecn&#xf3;logo"/>
+                    <StringItem index="229" value="- Bombeiro"/>
+                    <StringItem index="230" value="- Borracheiro"/>
+                    <StringItem index="231" value="C"/>
+                    <StringItem index="232" value="- Cabeleireiro"/>
+                    <StringItem index="233" value="- Cadista"/>
+                    <StringItem index="234" value="- Cardiologista"/>
+                    <StringItem index="235" value="- Cartazista"/>
+                    <StringItem index="236" value="- Carteiro"/>
+                    <StringItem index="237" value="- Cen&#xf3;grafo"/>
+                    <StringItem index="238" value="- Ceramista"/>
+                    <StringItem index="239" value="- Cineasta"/>
+                    <StringItem index="240" value="- Cinegrafista"/>
+                    <StringItem index="241" value="- Cirurgi&#xe3;o Pl&#xe1;stico"/>
+                    <StringItem index="242" value="- Cl&#xed;nico Geral"/>
+                    <StringItem index="243" value="- Cobrador de Coletivo"/>
+                    <StringItem index="244" value="- Comiss&#xe1;rio de Bordo"/>
+                    <StringItem index="245" value="- Comprador"/>
+                    <StringItem index="246" value="- Confeiteiro"/>
+                    <StringItem index="247" value="- Conferente"/>
+                    <StringItem index="248" value="- Conferente de Loja"/>
+                    <StringItem index="249" value="- Consultor Cont&#xe1;bil"/>
+                    <StringItem index="250" value="- Consultor de Marketing"/>
+                    <StringItem index="251" value="- Consultor de Moda"/>
+                    <StringItem index="252" value="- Consultor de Qualidade"/>
+                    <StringItem index="253" value="- Consultor de Vendas Externas"/>
+                    <StringItem index="254" value="- Consultor de Viagens"/>
+                    <StringItem index="255" value="- Contador"/>
+                    <StringItem index="256" value="- Controlador de Tr&#xe1;fego"/>
+                    <StringItem index="257" value="- Coordenador Administrativo"/>
+                    <StringItem index="258" value="- Coordenador Comercial Externo"/>
+                    <StringItem index="259" value="- Coordenador Comercial Interno"/>
+                    <StringItem index="260" value="- Coordenador de Almoxarifado"/>
+                    <StringItem index="261" value="- Coordenador de Arquitetura"/>
+                    <StringItem index="262" value="- Coordenador de Atendimento Comercial"/>
+                    <StringItem index="263" value="- Coordenador de Atendimento a Clientes"/>
+                    <StringItem index="264" value="- Coordenador de Banco"/>
+                    <StringItem index="265" value="- Coordenador de Cargos e Sal&#xe1;rios"/>
+                    <StringItem index="266" value="- Coordenador de Cobran&#xe7;a"/>
+                    <StringItem index="267" value="- Coordenador de Com&#xe9;rcio Exterior"/>
+                    <StringItem index="268" value="- Coordenador de Compras"/>
+                    <StringItem index="269" value="- Coordenador de Comunica&#xe7;&#xe3;o"/>
+                    <StringItem index="270" value="- Coordenador de Contabilidade"/>
+                    <StringItem index="271" value="- Coordenador de Controladoria"/>
+                    <StringItem index="272" value="- Coordenador de Controle de Qualidade"/>
+                    <StringItem index="273" value="- Coordenador de Cozinha"/>
+                    <StringItem index="274" value="- Coordenador de Cr&#xe9;dito e Cobran&#xe7;a"/>
+                    <StringItem index="275" value="- Coordenador de Custos"/>
+                    <StringItem index="276" value="- Coordenador de Departamento Pessoal"/>
+                    <StringItem index="277" value="- Coordenador de Desenvolvimento de Produto"/>
+                    <StringItem index="278" value="- Coordenador de Desenvolvimento de Sistemas"/>
+                    <StringItem index="279" value="- Coordenador de Diagrama&#xe7;&#xe3;o"/>
+                    <StringItem index="280" value="- Coordenador de E-commerce"/>
+                    <StringItem index="281" value="- Coordenador de Enfermagem"/>
+                    <StringItem index="282" value="- Coordenador de Engenharia e Seguran&#xe7;a do Trabalho"/>
+                    <StringItem index="283" value="- Coordenador de Engenharia El&#xe9;trica"/>
+                    <StringItem index="284" value="- Coordenador de Estoque"/>
+                    <StringItem index="285" value="- Coordenador de Fundi&#xe7;&#xe3;o"/>
+                    <StringItem index="286" value="- Coordenador de Inform&#xe1;tica"/>
+                    <StringItem index="287" value="- Coordenador de Jornalismo"/>
+                    <StringItem index="288" value="- Coordenador de Limpeza"/>
+                    <StringItem index="289" value="- Coordenador de Log&#xed;stica"/>
+                    <StringItem index="290" value="- Coordenador de Loja"/>
+                    <StringItem index="291" value="- Coordenador de Manuten&#xe7;&#xe3;o"/>
+                    <StringItem index="292" value="- Coordenador de Manuten&#xe7;&#xe3;o El&#xe9;trica"/>
+                    <StringItem index="293" value="- Coordenador de Marketing"/>
+                    <StringItem index="294" value="- Coordenador de PCP"/>
+                    <StringItem index="295" value="- Coordenador de Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="296" value="- Coordenador de Publicidade e Propaganda"/>
+                    <StringItem index="297" value="- Coordenador de Qualidade"/>
+                    <StringItem index="298" value="- Coordenador de Recrutamento e Sele&#xe7;&#xe3;o"/>
+                    <StringItem index="299" value="- Coordenador de Recursos Humanos"/>
+                    <StringItem index="300" value="- Coordenador de Representa&#xe7;&#xe3;o Comercial"/>
+                    <StringItem index="301" value="- Coordenador de SAC"/>
+                    <StringItem index="302" value="- Coordenador de Sal&#xe3;o"/>
+                    <StringItem index="303" value="- Coordenador de Seguran&#xe7;a Patrimonial"/>
+                    <StringItem index="304" value="- Coordenador de Seguros"/>
+                    <StringItem index="305" value="- Coordenador de Sistemas"/>
+                    <StringItem index="306" value="- Coordenador de Suporte T&#xe9;cnico"/>
+                    <StringItem index="307" value="- Coordenador de Suprimentos"/>
+                    <StringItem index="308" value="- Coordenador de Tecnologia da Informa&#xe7;&#xe3;o"/>
+                    <StringItem index="309" value="- Coordenador de Telecomunica&#xe7;&#xf5;es"/>
+                    <StringItem index="310" value="- Coordenador de Telemarketing Ativo"/>
+                    <StringItem index="311" value="- Coordenador de Telemarketing Receptivo"/>
+                    <StringItem index="312" value="- Coordenador de Tesouraraia"/>
+                    <StringItem index="313" value="- Coordenador de Transportes"/>
+                    <StringItem index="314" value="- Coordenador de Treinamento"/>
+                    <StringItem index="315" value="- Coordenador de Usinagem"/>
+                    <StringItem index="316" value="- Coordenador Econ&#xf4;mico"/>
+                    <StringItem index="317" value="- Coordenador Financeiro"/>
+                    <StringItem index="318" value="- Coordenador Fiscal"/>
+                    <StringItem index="319" value="- Coordenador Qu&#xed;mico"/>
+                    <StringItem index="320" value="- Corretor de Seguros"/>
+                    <StringItem index="321" value="- Cozinheiro"/>
+                    <StringItem index="322" value="D"/>
+                    <StringItem index="323" value="- Diretor Administrativo"/>
+                    <StringItem index="324" value="- Dentista"/>
+                    <StringItem index="325" value="- Desenhista"/>
+                    <StringItem index="326" value="- Designer de Interiores"/>
+                    <StringItem index="327" value="- Designer de Moda"/>
+                    <StringItem index="328" value="- Diagramador"/>
+                    <StringItem index="329" value="- Diretor"/>
+                    <StringItem index="330" value="- Diretor Comercial Externo"/>
+                    <StringItem index="331" value="- Diretor Comercial Interno"/>
+                    <StringItem index="332" value="- Diretor de Cinema"/>
+                    <StringItem index="333" value="- Diretor de Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="334" value="- Diretor de Representa&#xe7;&#xe3;o Comercial"/>
+                    <StringItem index="335" value="- Diretor de Recursos Humanos"/>
+                    <StringItem index="336" value="- Diretor de Tecnologia da Informa&#xe7;&#xe3;o (TI)"/>
+                    <StringItem index="337" value="- Diretor de Marketing"/>
+                    <StringItem index="338" value="- Diretor Financeiro"/>
+                    <StringItem index="339" value="- Diretor de Inform&#xe1;tica"/>
+                    <StringItem index="340" value="- Diretor de Jornalismo"/>
+                    <StringItem index="341" value="- Diretor de Suporte T&#xe9;cnico"/>
+                    <StringItem index="342" value="- Diretor de Log&#xed;stica"/>
+                    <StringItem index="343" value="- Diretor de Departamento Pessoal"/>
+                    <StringItem index="344" value="E"/>
+                    <StringItem index="345" value="- Ecologista"/>
+                    <StringItem index="346" value="- Economista"/>
+                    <StringItem index="347" value="- Editor"/>
+                    <StringItem index="348" value="- Educador"/>
+                    <StringItem index="349" value="- Eletricista"/>
+                    <StringItem index="350" value="- Eletricista de Manuten&#xe7;&#xe3;o"/>
+                    <StringItem index="351" value="- Embalador"/>
+                    <StringItem index="352" value="- Empreagdo (a) Dom&#xe9;stico (a)"/>
+                    <StringItem index="353" value="- Encanador"/>
+                    <StringItem index="354" value="- Encarregado de Almoxarifado"/>
+                    <StringItem index="355" value="- Encarregado de PCP"/>
+                    <StringItem index="356" value="- Encarregado de Recursos Humanos"/>
+                    <StringItem index="357" value="- Encarregado de Seguran&#xe7;a"/>
+                    <StringItem index="358" value="- Encarregado de Transporte"/>
+                    <StringItem index="359" value="- Encarregado de Usinagem"/>
+                    <StringItem index="360" value="- Endocrinologista"/>
+                    <StringItem index="361" value="- Engenheiro T&#xea;xtil"/>
+                    <StringItem index="362" value="- Enfermeiro"/>
+                    <StringItem index="363" value="- Engenheiro Aeron&#xe1;utico"/>
+                    <StringItem index="364" value="- Engenheiro Agrimensor"/>
+                    <StringItem index="365" value="- Engenheiro Agr&#xf4;nomo"/>
+                    <StringItem index="366" value="- Engenheiro Ambiental"/>
+                    <StringItem index="367" value="- Engenheiro Civil"/>
+                    <StringItem index="368" value="- Engenheiro Civil Junior"/>
+                    <StringItem index="369" value="- Engenheiro Civil Pleno"/>
+                    <StringItem index="370" value="- Engenheiro Civil S&#xea;nior"/>
+                    <StringItem index="371" value="- Engenheiro da Computa&#xe7;&#xe3;o"/>
+                    <StringItem index="372" value="- Engenheiro de Alimentos"/>
+                    <StringItem index="373" value="- Engenheiro de Engenharia e Seguran&#xe7;a do Trabalho"/>
+                    <StringItem index="374" value="- Engenheiro de Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="375" value="- Engenheiro de Suprimentos"/>
+                    <StringItem index="376" value="- Engenheiro de Telecomunica&#xe7;&#xf5;es"/>
+                    <StringItem index="377" value="- Engenheiro Eletricista"/>
+                    <StringItem index="378" value="- Engenheiro Metal&#xfa;rgico"/>
+                    <StringItem index="379" value="- Engenheiro Naval"/>
+                    <StringItem index="380" value="- Engenheiro Nuclear"/>
+                    <StringItem index="381" value="- Estagi&#xe1;rio Comercial Externo"/>
+                    <StringItem index="382" value="- Estagi&#xe1;rio Comercial Interno"/>
+                    <StringItem index="383" value="- Estagi&#xe1;rio Administrativo"/>
+                    <StringItem index="384" value="- Estagi&#xe1;rio de Arquitetura"/>
+                    <StringItem index="385" value="- Estagi&#xe1;rio de Atendimento Comercial"/>
+                    <StringItem index="386" value="- Estagi&#xe1;rio de Atendimento a Clientes"/>
+                    <StringItem index="387" value="- Estagi&#xe1;rio de Banco"/>
+                    <StringItem index="388" value="- Estagi&#xe1;rio de Banco de Dados"/>
+                    <StringItem index="389" value="- Estagi&#xe1;rio de Biomedicina"/>
+                    <StringItem index="390" value="- Estagi&#xe1;rio de Cobran&#xe7;a"/>
+                    <StringItem index="391" value="- Estagi&#xe1;rio de Com&#xe9;rcio Exterior"/>
+                    <StringItem index="392" value="- Estagi&#xe1;rio de Compras"/>
+                    <StringItem index="393" value="- Estagi&#xe1;rio de Comunica&#xe7;&#xe3;o"/>
+                    <StringItem index="394" value="- Estagi&#xe1;rio de Contabilidade"/>
+                    <StringItem index="395" value="- Estagi&#xe1;rio de Controladoria"/>
+                    <StringItem index="396" value="- Estagi&#xe1;rio de Controle de Qualidade"/>
+                    <StringItem index="397" value="- Estagi&#xe1;rio de Cozinha"/>
+                    <StringItem index="398" value="- Estagi&#xe1;rio de Custos"/>
+                    <StringItem index="399" value="- Estagi&#xe1;rio de Departamento Pessoal"/>
+                    <StringItem index="400" value="- Estagi&#xe1;rio de Desenho Industrial"/>
+                    <StringItem index="401" value="- Estagi&#xe1;rio de Desenvolvimento de Produto"/>
+                    <StringItem index="402" value="- Estagi&#xe1;rio de Desenvolvimento de Sistemas"/>
+                    <StringItem index="403" value="- Estagi&#xe1;rio de Diagrama&#xe7;&#xe3;o"/>
+                    <StringItem index="404" value="- Estagi&#xe1;rio de Distribui&#xe7;&#xe3;o"/>
+                    <StringItem index="405" value="- Estagi&#xe1;rio de E-commerce"/>
+                    <StringItem index="406" value="- Estagi&#xe1;rio de Economia"/>
+                    <StringItem index="407" value="- Estagi&#xe1;rio de Edifica&#xe7;&#xf5;es"/>
+                    <StringItem index="408" value="- Estagi&#xe1;rio de Educa&#xe7;&#xe3;o F&#xed;sica"/>
+                    <StringItem index="409" value="- Estagi&#xe1;rio de Enfermagem"/>
+                    <StringItem index="410" value="- Estagi&#xe1;rio de Engenharia de Alimentos"/>
+                    <StringItem index="411" value="- Estagi&#xe1;rio de Engenharia de Telecomunica&#xe7;&#xf5;es"/>
+                    <StringItem index="412" value="- Estagi&#xe1;rio de Engenharia e Seguran&#xe7;a do Trabalho"/>
+                    <StringItem index="413" value="- Estagi&#xe1;rio de Engenharia El&#xe9;trica"/>
+                    <StringItem index="414" value="- Estagi&#xe1;rio de Estoque"/>
+                    <StringItem index="415" value="- Estagi&#xe1;rio de Gastronomia"/>
+                    <StringItem index="416" value="- Estagi&#xe1;rio de Gest&#xe3;o Abiental"/>
+                    <StringItem index="417" value="- Estagi&#xe1;rio de Inform&#xe1;tica"/>
+                    <StringItem index="418" value="- Estagi&#xe1;rio de Jornalismo"/>
+                    <StringItem index="419" value="- Estagi&#xe1;rio de Letras"/>
+                    <StringItem index="420" value="- Estagi&#xe1;rio de Log&#xed;stica"/>
+                    <StringItem index="421" value="- Estagi&#xe1;rio de Manuten&#xe7;&#xe3;o"/>
+                    <StringItem index="422" value="- Estagi&#xe1;rio de Manuten&#xe7;&#xe3;o El&#xe9;trica"/>
+                    <StringItem index="423" value="- Estagi&#xe1;rio de Marketing"/>
+                    <StringItem index="424" value="- Estagi&#xe1;rio de PCP"/>
+                    <StringItem index="425" value="- Estagi&#xe1;rio de Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="426" value="- Estagi&#xe1;rio de Publicidade e Propaganda"/>
+                    <StringItem index="427" value="- Estagi&#xe1;rio de Qualidade"/>
+                    <StringItem index="428" value="- Estagi&#xe1;rio de Recrutamento e Sele&#xe7;&#xe3;o"/>
+                    <StringItem index="429" value="- Estagi&#xe1;rio de Recursos Humanos"/>
+                    <StringItem index="430" value="- Estagi&#xe1;rio de Representa&#xe7;&#xe3;o Comercial"/>
+                    <StringItem index="431" value="- Estagi&#xe1;rio de SAC"/>
+                    <StringItem index="432" value="- Estagi&#xe1;rio de Sistemas"/>
+                    <StringItem index="433" value="- Estagi&#xe1;rio de Suporte T&#xe9;cnico"/>
+                    <StringItem index="434" value="- Estagi&#xe1;rio de Suprimentos"/>
+                    <StringItem index="435" value="- Estagi&#xe1;rio de Tecnologia da Informa&#xe7;&#xe3;o (TI)"/>
+                    <StringItem index="436" value="- Estagi&#xe1;rio de Telecomunica&#xe7;&#xe3;oes"/>
+                    <StringItem index="437" value="- Estagi&#xe1;rio de Telemarketing Ativo"/>
+                    <StringItem index="438" value="- Estagi&#xe1;rio de Telemarketing Receptivo"/>
+                    <StringItem index="439" value="- Estagi&#xe1;rio de Tesouraria"/>
+                    <StringItem index="440" value="- Estagi&#xe1;rio de Veterin&#xe1;ria"/>
+                    <StringItem index="441" value="- Estagi&#xe1;rio de Web Design"/>
+                    <StringItem index="442" value="- Estagi&#xe1;rio Financeiro"/>
+                    <StringItem index="443" value="- Estagi&#xe1;rio Fiscal"/>
+                    <StringItem index="444" value="- Estagi&#xe1;rio Qu&#xed;mico"/>
+                    <StringItem index="445" value="- Esteticista"/>
+                    <StringItem index="446" value="- Estilista"/>
+                    <StringItem index="447" value="- Estoquista"/>
+                    <StringItem index="448" value="- Estoquista de Loja"/>
+                    <StringItem index="449" value="F"/>
+                    <StringItem index="450" value="- Fundidor"/>
+                    <StringItem index="451" value="- Farmac&#xea;utico"/>
+                    <StringItem index="452" value="- Feirante"/>
+                    <StringItem index="453" value="- Fil&#xf3;sofo"/>
+                    <StringItem index="454" value="- F&#xed;sico"/>
+                    <StringItem index="455" value="- Fisioterapeuta"/>
+                    <StringItem index="456" value="- Fonoaudi&#xf3;logo"/>
+                    <StringItem index="457" value="- Fot&#xf3;grafo"/>
+                    <StringItem index="458" value="- Fresador"/>
+                    <StringItem index="459" value="- Fresador CNC"/>
+                    <StringItem index="460" value="- Fresador Ferramenteiro"/>
+                    <StringItem index="461" value="G"/>
+                    <StringItem index="462" value="- Gar&#xe7;om"/>
+                    <StringItem index="463" value="- Gari"/>
+                    <StringItem index="464" value="- Gastr&#xf4;nomo"/>
+                    <StringItem index="465" value="- Geof&#xed;sico"/>
+                    <StringItem index="466" value="- Geogr&#xe1;fo"/>
+                    <StringItem index="467" value="- Ge&#xf3;logo"/>
+                    <StringItem index="468" value="- Gerente Administrativo"/>
+                    <StringItem index="469" value="- Gerente Comercial Externo"/>
+                    <StringItem index="470" value="- Gerente Comercial Interno"/>
+                    <StringItem index="471" value="- Gerente Comercial Interno"/>
+                    <StringItem index="472" value="- Gerente de Atendimento a Clientes"/>
+                    <StringItem index="473" value="- Gerente de Atendimento Comercial"/>
+                    <StringItem index="474" value="- Gerente de Banco"/>
+                    <StringItem index="475" value="- Gerente de Cobran&#xe7;a"/>
+                    <StringItem index="476" value="- Gerente de Com&#xe9;rcio Exterior"/>
+                    <StringItem index="477" value="- Gerente de Compras"/>
+                    <StringItem index="478" value="- Gerente de Comunica&#xe7;&#xe3;o"/>
+                    <StringItem index="479" value="- Gerente de Contabilidade"/>
+                    <StringItem index="480" value="- Gerente de Contas"/>
+                    <StringItem index="481" value="- Gerente de Controladoria"/>
+                    <StringItem index="482" value="- Gerente de Controle de Qualidade"/>
+                    <StringItem index="483" value="- Gerente de Cozinha"/>
+                    <StringItem index="484" value="- Gerente de Departamento Pessoal"/>
+                    <StringItem index="485" value="- Gerente de Desenvolvimento de Produto"/>
+                    <StringItem index="486" value="- Gerente de Desenvolvimento de Sistemas"/>
+                    <StringItem index="487" value="- Gerente de Distribui&#xe7;&#xe3;o"/>
+                    <StringItem index="488" value="- Gerente de E-commerce"/>
+                    <StringItem index="489" value="- Gerente de Enfermagem"/>
+                    <StringItem index="490" value="- Gerente de Engenharia El&#xe9;trica"/>
+                    <StringItem index="491" value="- Gerente de Estoque"/>
+                    <StringItem index="492" value="- Gerente de Hotelaria"/>
+                    <StringItem index="493" value="- Gerente de Inform&#xe1;tica"/>
+                    <StringItem index="494" value="- Gerente de Jornalismo"/>
+                    <StringItem index="495" value="- Gerente de Log&#xed;stica"/>
+                    <StringItem index="496" value="- Gerente de Loja"/>
+                    <StringItem index="497" value="- Gerente de Manuten&#xe7;&#xe3;o"/>
+                    <StringItem index="498" value="- Gerente de Manuten&#xe7;&#xe3;o El&#xe9;trica"/>
+                    <StringItem index="499" value="- Gerente de Marketing"/>
+                    <StringItem index="500" value="- Gerente de PCP"/>
+                    <StringItem index="501" value="- Gerente de Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="502" value="- Gerente de Publicidade e Propaganda"/>
+                    <StringItem index="503" value="- Gerente de Qualidade"/>
+                    <StringItem index="504" value="- Gerente de Recrutamento e Sele&#xe7;&#xe3;o"/>
+                    <StringItem index="505" value="- Gerente de Recursos Humanos"/>
+                    <StringItem index="506" value="- Gerente de Representa&#xe7;&#xe3;o Comercial"/>
+                    <StringItem index="507" value="- Gerente de SAC"/>
+                    <StringItem index="508" value="- Gerente de Sal&#xe3;o"/>
+                    <StringItem index="509" value="- Gerente de Seguran&#xe7;a Patrimonial"/>
+                    <StringItem index="510" value="- Gerente de Seguros"/>
+                    <StringItem index="511" value="- Gerente de Sistemas"/>
+                    <StringItem index="512" value="- Gerente de Suporte T&#xe9;cnico"/>
+                    <StringItem index="513" value="- Gerente de Suprimentos"/>
+                    <StringItem index="514" value="- Gerente de Tecnologia da Informa&#xe7;&#xe3;o (TI)"/>
+                    <StringItem index="515" value="- Gerente de Telecomunica&#xe7;&#xf5;es"/>
+                    <StringItem index="516" value="- Gerente de Telemarketing Ativo"/>
+                    <StringItem index="517" value="- Gerente de Telemarketing Receptivo"/>
+                    <StringItem index="518" value="- Gerente de Tesouraria"/>
+                    <StringItem index="519" value="- Gerente de Transportes"/>
+                    <StringItem index="520" value="- Gerente Financeiro"/>
+                    <StringItem index="521" value="- Gerente Fiscal"/>
+                    <StringItem index="522" value="- Gerente Qu&#xed;mico"/>
+                    <StringItem index="523" value="- Geriatra"/>
+                    <StringItem index="524" value="- Gestor Ambiental"/>
+                    <StringItem index="525" value="- Ginecologista"/>
+                    <StringItem index="526" value="- Governanta"/>
+                    <StringItem index="527" value="H"/>
+                    <StringItem index="528" value="- Homeopata"/>
+                    <StringItem index="529" value="- Historiador"/>
+                    <StringItem index="530" value="I"/>
+                    <StringItem index="531" value="- Inspetor de Controle de Qualidade"/>
+                    <StringItem index="532" value="- Instalador de Acess&#xf3;rios Automotivos"/>
+                    <StringItem index="533" value="- Instalador de Alarmes"/>
+                    <StringItem index="534" value="- Instalador de Cabeamento Estruturado"/>
+                    <StringItem index="535" value="- Instalador de Telecomunica&#xe7;&#xf5;es"/>
+                    <StringItem index="536" value="- Instrutor de Treinamento"/>
+                    <StringItem index="537" value="J"/>
+                    <StringItem index="538" value="- Jornalista"/>
+                    <StringItem index="539" value="- Jardineiro"/>
+                    <StringItem index="540" value="K"/>
+                    <StringItem index="541" value="Kilometreiro"/>
+                    <StringItem index="542" value="L"/>
+                    <StringItem index="543" value="- L&#xed;der de Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="544" value="- L&#xed;der de Usinagem"/>
+                    <StringItem index="545" value="- Locutor"/>
+                    <StringItem index="546" value="M"/>
+                    <StringItem index="547" value="- Maestro"/>
+                    <StringItem index="548" value="- Mandrilhador"/>
+                    <StringItem index="549" value="- Manicure/Pedicure"/>
+                    <StringItem index="550" value="- Manobrista"/>
+                    <StringItem index="551" value="- Maquiador"/>
+                    <StringItem index="552" value="- Marceneiro"/>
+                    <StringItem index="553" value="- Marinheiro"/>
+                    <StringItem index="554" value="- Matem&#xe1;tico"/>
+                    <StringItem index="555" value="- Mec&#xe2;nico"/>
+                    <StringItem index="556" value="- Mec&#xe2;nico de Autom&#xf3;veis"/>
+                    <StringItem index="557" value="- Mec&#xe2;nico de Manuten&#xe7;&#xe3;o Hidr&#xe1;ulica"/>
+                    <StringItem index="558" value="- M&#xe9;dico"/>
+                    <StringItem index="559" value="- Mestre-de-Obras"/>
+                    <StringItem index="560" value="- Modelo"/>
+                    <StringItem index="561" value="- Monitor de Atendimento a Clientes"/>
+                    <StringItem index="562" value="- Monitor de Telemarketing Ativo"/>
+                    <StringItem index="563" value="- Monitor de Telemarketing Receptivo"/>
+                    <StringItem index="564" value="- Motoboy"/>
+                    <StringItem index="565" value="- Motorista"/>
+                    <StringItem index="566" value="N"/>
+                    <StringItem index="567" value="- Neurologista"/>
+                    <StringItem index="568" value="- Nutricionista"/>
+                    <StringItem index="569" value="O"/>
+                    <StringItem index="570" value="- Obstetra"/>
+                    <StringItem index="571" value="- Oftalmologista"/>
+                    <StringItem index="572" value="- Operador de Atendimento a Clientes"/>
+                    <StringItem index="573" value="- Operador de Caixa"/>
+                    <StringItem index="574" value="- Operador de Fundi&#xe7;&#xe3;o"/>
+                    <StringItem index="575" value="- Operador de Guilhotina"/>
+                    <StringItem index="576" value="- Operador de Log&#xed;stica"/>
+                    <StringItem index="577" value="- Operador de Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="578" value="- Operador de SAC"/>
+                    <StringItem index="579" value="- Operador de Telemarketing Ativo"/>
+                    <StringItem index="580" value="- Operador de Telemarketing Receptivo"/>
+                    <StringItem index="581" value="- Operador de Torno"/>
+                    <StringItem index="582" value="- Operador de Usinagem"/>
+                    <StringItem index="583" value="- Ortopedista"/>
+                    <StringItem index="584" value="- Otorrinolaringologista"/>
+                    <StringItem index="585" value="P"/>
+                    <StringItem index="586" value="- Psic&#xf3;logo"/>
+                    <StringItem index="587" value="- Padeiro"/>
+                    <StringItem index="588" value="- Pescador"/>
+                    <StringItem index="589" value="- Paisagista"/>
+                    <StringItem index="590" value="- Pediatra"/>
+                    <StringItem index="591" value="- Pedreiro"/>
+                    <StringItem index="592" value="- Pintor"/>
+                    <StringItem index="593" value="- Pod&#xf3;logo"/>
+                    <StringItem index="594" value="- Polidor"/>
+                    <StringItem index="595" value="- Presidente"/>
+                    <StringItem index="596" value="- Produtor Editorial"/>
+                    <StringItem index="597" value="- Professor de Educa&#xe7;&#xe3;o"/>
+                    <StringItem index="598" value="- Professor de Letras"/>
+                    <StringItem index="599" value="- Programador de Centro de Usinagem"/>
+                    <StringItem index="600" value="- Programador de PCP"/>
+                    <StringItem index="601" value="- Promotor Banc&#xe1;rio"/>
+                    <StringItem index="602" value="Q"/>
+                    <StringItem index="603" value="- Qu&#xed;mico"/>
+                    <StringItem index="604" value="R"/>
+                    <StringItem index="605" value="- Recepcionista"/>
+                    <StringItem index="606" value="- Radialista"/>
+                    <StringItem index="607" value="- Radiologista"/>
+                    <StringItem index="608" value="- Redator"/>
+                    <StringItem index="609" value="- Rep&#xf3;rter"/>
+                    <StringItem index="610" value="- Representante Comercial"/>
+                    <StringItem index="611" value="S"/>
+                    <StringItem index="612" value="- Supervisor Administrativo"/>
+                    <StringItem index="613" value="- Secret&#xe1;ria"/>
+                    <StringItem index="614" value="- Serralheiro"/>
+                    <StringItem index="615" value="- Supervisor Comercial Externo"/>
+                    <StringItem index="616" value="- Supervisor Comercial Interno"/>
+                    <StringItem index="617" value="- Supervisor de Almoxarifado"/>
+                    <StringItem index="618" value="- Supervisor de Atendimento a Clientes"/>
+                    <StringItem index="619" value="- Supervisor de Atendimento Comercial"/>
+                    <StringItem index="620" value="- Supervisor de Banco"/>
+                    <StringItem index="621" value="- Supervisor de Cargos e Sal&#xe1;rios"/>
+                    <StringItem index="622" value="- Supervisor de Cobran&#xe7;a"/>
+                    <StringItem index="623" value="- Supervisor de Com&#xe9;rcio Exterior"/>
+                    <StringItem index="624" value="- Supervisor de Compras"/>
+                    <StringItem index="625" value="- Supervisor de Comunica&#xe7;&#xe3;o"/>
+                    <StringItem index="626" value="- Supervisor de Contabilidade"/>
+                    <StringItem index="627" value="- Supervisor de Controladoria"/>
+                    <StringItem index="628" value="- Supervisor de Controle de Qualidade"/>
+                    <StringItem index="629" value="- Supervisor de Cozinha"/>
+                    <StringItem index="630" value="- Supervisor de Cr&#xe9;dito e Cobran&#xe7;a"/>
+                    <StringItem index="631" value="- Supervisor de Custos"/>
+                    <StringItem index="632" value="- Supervisor de Departamento Pessoal"/>
+                    <StringItem index="633" value="- Supervisor de Desenvolvimento de Produto"/>
+                    <StringItem index="634" value="- Supervisor de Desenvolvimento de Sistemas"/>
+                    <StringItem index="635" value="- Supervisor de Distribui&#xe7;&#xe3;o"/>
+                    <StringItem index="636" value="- Supervisor de E-commerce"/>
+                    <StringItem index="637" value="- Supervisor de Enfermagem"/>
+                    <StringItem index="638" value="- Supervisor de Engenharia e Seguran&#xe7;a do Trabalho"/>
+                    <StringItem index="639" value="- Supervisor de Engenharia El&#xe9;trica"/>
+                    <StringItem index="640" value="- Supervisor de Estoque"/>
+                    <StringItem index="641" value="- Supervisor de Fundi&#xe7;&#xe3;o"/>
+                    <StringItem index="642" value="- Supervisor de Inform&#xe1;tica"/>
+                    <StringItem index="643" value="- Supervisor de Limpeza"/>
+                    <StringItem index="644" value="- Supervisor de Log&#xed;stica"/>
+                    <StringItem index="645" value="- Supervisor de loja"/>
+                    <StringItem index="646" value="- Supervisor de Manuten&#xe7;&#xe3;o"/>
+                    <StringItem index="647" value="- Supervisor de Marketing"/>
+                    <StringItem index="648" value="- Supervisor de Manuten&#xe7;&#xe3;o El&#xe9;trica"/>
+                    <StringItem index="649" value="- Supervisor de PCP"/>
+                    <StringItem index="650" value="- Supervisor de Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="651" value="- Supervisor de Publicidade e Propaganda"/>
+                    <StringItem index="652" value="- Supervisor de Qualidade"/>
+                    <StringItem index="653" value="- Supervisor de Recrutamento e Sele&#xe7;&#xe3;o"/>
+                    <StringItem index="654" value="- Supervisor de Recursos Humanos"/>
+                    <StringItem index="655" value="- Supervisor de Representa&#xe7;&#xe3;o Comercial"/>
+                    <StringItem index="656" value="- Supervisor de SAC"/>
+                    <StringItem index="657" value="- Supervisor de Sal&#xe3;o"/>
+                    <StringItem index="658" value="- Supervisor de Seguran&#xe7;a"/>
+                    <StringItem index="659" value="- Supervisor de Seguran&#xe7;a Patrimonial"/>
+                    <StringItem index="660" value="- Supervisor de Seguros"/>
+                    <StringItem index="661" value="- Supervisor de Sistemas"/>
+                    <StringItem index="662" value="- Supervisor de Suporte T&#xe9;cnico"/>
+                    <StringItem index="663" value="- Supervisor de Suprimentos"/>
+                    <StringItem index="664" value="- Supervisor de Tecnologia da Informa&#xe7;&#xe3;o (TI)"/>
+                    <StringItem index="665" value="- Supervisor de Telecomunica&#xe7;&#xf5;es"/>
+                    <StringItem index="666" value="- Supervisor de Telemarketing Ativo"/>
+                    <StringItem index="667" value="- Supervisor de Telemarketing Receptivo"/>
+                    <StringItem index="668" value="- Supervisor de Tesouraria"/>
+                    <StringItem index="669" value="- Supervisor de Transportes"/>
+                    <StringItem index="670" value="- Supervisor de Usinagem"/>
+                    <StringItem index="671" value="- Supervisor Econ&#xf4;mico"/>
+                    <StringItem index="672" value="- Supervisor Financeiro"/>
+                    <StringItem index="673" value="- Supervisor Fiscal"/>
+                    <StringItem index="674" value="T"/>
+                    <StringItem index="675" value="- T&#xe9;cnico Ambiental"/>
+                    <StringItem index="676" value="- T&#xe9;cnico de Controle de Qualidade"/>
+                    <StringItem index="677" value="- T&#xe9;cnico de Edifica&#xe7;&#xf5;es"/>
+                    <StringItem index="678" value="- T&#xe9;cnico de Suporte"/>
+                    <StringItem index="679" value="- T&#xe9;cnico em Manuten&#xe7;&#xe3;o El&#xe9;trica"/>
+                    <StringItem index="680" value="- T&#xe9;cnico em An&#xe1;lise Cl&#xed;nica"/>
+                    <StringItem index="681" value="- T&#xe9;cnico em An&#xe1;lise Qu&#xed;mica"/>
+                    <StringItem index="682" value="- T&#xe9;cnico em Automa&#xe7;&#xe3;o"/>
+                    <StringItem index="683" value="- T&#xe9;cnico em Guia de Turismo"/>
+                    <StringItem index="684" value="- T&#xe9;cnico em Hardware"/>
+                    <StringItem index="685" value="- T&#xe9;cnico em Inform&#xe1;tica"/>
+                    <StringItem index="686" value="- T&#xe9;cnico em Metal&#xfa;rgica"/>
+                    <StringItem index="687" value="- T&#xe9;cnico em Redes"/>
+                    <StringItem index="688" value="- T&#xe9;cnico em Secretariado"/>
+                    <StringItem index="689" value="- T&#xe9;cnico em Secretariado Escolar"/>
+                    <StringItem index="690" value="- T&#xe9;cnico em Transa&#xe7;&#xf5;es Imobili&#xe1;rias"/>
+                    <StringItem index="691" value="- T&#xe9;cnico em Zootecnia"/>
+                    <StringItem index="692" value="- T&#xe9;cnico Instalador"/>
+                    <StringItem index="693" value="- T&#xe9;cnico em Telecomunica&#xe7;&#xf5;es"/>
+                    <StringItem index="694" value="- Tesoureiro"/>
+                    <StringItem index="695" value="- Top&#xf3;grafo"/>
+                    <StringItem index="696" value="- Tradutor"/>
+                    <StringItem index="697" value="- Traumatologista"/>
+                    <StringItem index="698" value="- Turism&#xf3;logo"/>
+                    <StringItem index="699" value="U"/>
+                    <StringItem index="700" value="- Urologista"/>
+                    <StringItem index="701" value="V"/>
+                    <StringItem index="702" value="- Vendedor Externo"/>
+                    <StringItem index="703" value="- Vendedor de Loja"/>
+                    <StringItem index="704" value="- Vendedor Interno"/>
+                    <StringItem index="705" value="- Veterin&#xe1;rio"/>
+                    <StringItem index="706" value="- Vigilante"/>
+                    <StringItem index="707" value="- Vigilante Condutor"/>
+                    <StringItem index="708" value="- Vigilante de Escolta"/>
+                    <StringItem index="709" value="- Vigilante de Monitoramento"/>
+                    <StringItem index="710" value="- Vigilante de Seguran&#xe7;a Patrimonial"/>
+                    <StringItem index="711" value="- Vigilante de Seguran&#xe7;a Social Privada"/>
+                    <StringItem index="712" value="- Vigilante L&#xed;der"/>
+                    <StringItem index="713" value="- Vitrinista"/>
+                    <StringItem index="714" value="W"/>
+                    <StringItem index="715" value="- Web Design"/>
+                    <StringItem index="716" value="- Web Design S&#xea;nior"/>
+                    <StringItem index="717" value="- Web Design Junior"/>
+                    <StringItem index="718" value="X"/>
+                    <StringItem index="719" value="Xadrereiro"/>
+                    <StringItem index="720" value="Y"/>
+                    <StringItem index="721" value="Youtuber"/>
+                    <StringItem index="722" value="Yoguista"/>
+                    <StringItem index="723" value="Z"/>
+                    <StringItem index="724" value="- Zelador"/>
+                    <StringItem index="725" value="- Zootecnista"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCbx_cargoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Departamento:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jCbx_departamento">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="23">
+                    <StringItem index="0" value="Selecione um departamento"/>
+                    <StringItem index="1" value="Diretoria"/>
+                    <StringItem index="2" value="Administra&#xe7;&#xe3;o"/>
+                    <StringItem index="3" value="Logistica"/>
+                    <StringItem index="4" value="Tecnologias"/>
+                    <StringItem index="5" value="Finan&#xe7;as"/>
+                    <StringItem index="6" value="Produ&#xe7;&#xe3;o"/>
+                    <StringItem index="7" value="Recursos Humanos"/>
+                    <StringItem index="8" value="Vigil&#xe2;ncia"/>
+                    <StringItem index="9" value="Recebimento"/>
+                    <StringItem index="10" value="Despachamento"/>
+                    <StringItem index="11" value="Educacional"/>
+                    <StringItem index="12" value="Infraestrutura"/>
+                    <StringItem index="13" value="Engenharia"/>
+                    <StringItem index="14" value="Sa&#xfa;de"/>
+                    <StringItem index="15" value="Secretariado"/>
+                    <StringItem index="16" value="P&#xfa;blico"/>
+                    <StringItem index="17" value="Privado"/>
+                    <StringItem index="18" value="Ecol&#xf3;gico"/>
+                    <StringItem index="19" value="Agronomo"/>
+                    <StringItem index="20" value="Industrial"/>
+                    <StringItem index="21" value="Diversos"/>
+                    <StringItem index="22" value="Outros"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel13">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Setor:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jCbx_setor">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="0"/>
+                </Property>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="49">
+                    <StringItem index="0" value="Selecione um setor"/>
+                    <StringItem index="1" value="A"/>
+                    <StringItem index="2" value="- Agropecu&#xe1;ria"/>
+                    <StringItem index="3" value="- &#xc1;gua, g&#xe1;s e saneamento"/>
+                    <StringItem index="4" value="- Alimentos processados"/>
+                    <StringItem index="5" value="B"/>
+                    <StringItem index="6" value="- Bancos"/>
+                    <StringItem index="7" value="C"/>
+                    <StringItem index="8" value="- Carnes e derivados"/>
+                    <StringItem index="9" value="- Constru&#xe7;&#xe3;o civil e intermedia&#xe7;&#xe3;o"/>
+                    <StringItem index="10" value="- Constru&#xe7;&#xe3;o pesada e engenharia"/>
+                    <StringItem index="11" value="E"/>
+                    <StringItem index="12" value="- Energia el&#xe9;trica"/>
+                    <StringItem index="13" value="- Equipamentos, m&#xe1;quinas e pe&#xe7;as"/>
+                    <StringItem index="14" value="H"/>
+                    <StringItem index="15" value="- Holdings"/>
+                    <StringItem index="16" value="- Hotelaria e Restaurantes"/>
+                    <StringItem index="17" value="I"/>
+                    <StringItem index="18" value="- Im&#xf3;veis comerciais e shoppings"/>
+                    <StringItem index="19" value="- Ind&#xfa;strias de alimentos"/>
+                    <StringItem index="20" value="- Ind&#xfa;strias em geral"/>
+                    <StringItem index="21" value="M"/>
+                    <StringItem index="22" value="- Materiais diversos"/>
+                    <StringItem index="23" value="- Minera&#xe7;&#xe3;o"/>
+                    <StringItem index="24" value="N"/>
+                    <StringItem index="25" value="- Neg&#xf3;cios de lazer e eventos"/>
+                    <StringItem index="26" value="- Neg&#xf3;cios diversos"/>
+                    <StringItem index="27" value="P"/>
+                    <StringItem index="28" value="- Papel e madeira"/>
+                    <StringItem index="29" value="- Petr&#xf3;leo, g&#xe1;s e combust&#xed;veis"/>
+                    <StringItem index="30" value="Q"/>
+                    <StringItem index="31" value="- Qu&#xed;mica e petroqu&#xed;mica"/>
+                    <StringItem index="32" value="R"/>
+                    <StringItem index="33" value="- Roupas, cal&#xe7;ados e acess&#xf3;rios"/>
+                    <StringItem index="34" value="S"/>
+                    <StringItem index="35" value="- Servi&#xe7;os diversos"/>
+                    <StringItem index="36" value="- Servi&#xe7;os financeiros"/>
+                    <StringItem index="37" value="- Setor de educa&#xe7;&#xe3;o"/>
+                    <StringItem index="38" value="- Setor de sa&#xfa;de"/>
+                    <StringItem index="39" value="- Setor de seguros"/>
+                    <StringItem index="40" value="- Setor de transporte"/>
+                    <StringItem index="41" value="- Siderurgia e metalurgia"/>
+                    <StringItem index="42" value="T"/>
+                    <StringItem index="43" value="- Tecnologia da informa&#xe7;&#xe3;o"/>
+                    <StringItem index="44" value="- Telecomunica&#xe7;&#xf5;es"/>
+                    <StringItem index="45" value="- T&#xea;xteis"/>
+                    <StringItem index="46" value="U"/>
+                    <StringItem index="47" value="- Utilidades dom&#xe9;sticas"/>
+                    <StringItem index="48" value="- Varejo"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel14">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Endere&#xe7;o:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_endereco">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel16">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Bairro:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_bairro">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel17">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Cidade:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_cidade">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel18">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="UF:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jText_uf">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="27">
+                    <StringItem index="0" value="AC"/>
+                    <StringItem index="1" value="AL"/>
+                    <StringItem index="2" value="AP"/>
+                    <StringItem index="3" value="AM"/>
+                    <StringItem index="4" value="BA"/>
+                    <StringItem index="5" value="CE"/>
+                    <StringItem index="6" value="DF"/>
+                    <StringItem index="7" value="ES"/>
+                    <StringItem index="8" value="GO"/>
+                    <StringItem index="9" value="MA"/>
+                    <StringItem index="10" value="MT"/>
+                    <StringItem index="11" value="MS"/>
+                    <StringItem index="12" value="MG"/>
+                    <StringItem index="13" value="PA"/>
+                    <StringItem index="14" value="PB"/>
+                    <StringItem index="15" value="PR"/>
+                    <StringItem index="16" value="PE"/>
+                    <StringItem index="17" value="PI"/>
+                    <StringItem index="18" value="RJ"/>
+                    <StringItem index="19" value="RN"/>
+                    <StringItem index="20" value="RS"/>
+                    <StringItem index="21" value="RO"/>
+                    <StringItem index="22" value="RR"/>
+                    <StringItem index="23" value="SC"/>
+                    <StringItem index="24" value="SP"/>
+                    <StringItem index="25" value="SE"/>
+                    <StringItem index="26" value="TO"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Telefone:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jText_telefone">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="(##)####-####" subtype="-1" type="5"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel20">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Celular:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jText_celular">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="(##)#####-####" subtype="-1" type="5"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel21">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Email:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_email">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel22">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Admi&#xe7;&#xe3;o:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jText_admicao">
+              <Properties>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="##/##/####" subtype="-1" type="5"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="jChbx_desligamento">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Desligamento"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jChbx_desligamentoMouseClicked"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JFormattedTextField" name="jText_desligamento">
+              <Properties>
+                <Property name="editable" type="boolean" value="false"/>
+                <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor" preCode="try {" postCode="} catch (java.text.ParseException ex) {&#xa;ex.printStackTrace();&#xa;}">
+                  <Format format="##/##/####" subtype="-1" type="5"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel23">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Motivo do desligamento:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jText_motivoDesligamento">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="16">
+                    <StringItem index="0" value="Selecione um motivo"/>
+                    <StringItem index="1" value="Abandono de trabalho"/>
+                    <StringItem index="2" value="Nova oportunidade de trabalho"/>
+                    <StringItem index="3" value="Justa causa"/>
+                    <StringItem index="4" value="Fim de contrato"/>
+                    <StringItem index="5" value="Demiss&#xe3;o por motivos financeiros"/>
+                    <StringItem index="6" value="Demiss&#xe3;o por falta de produ&#xe7;&#xe3;o"/>
+                    <StringItem index="7" value="Demiss&#xe3;o por um conjunto de fatores"/>
+                    <StringItem index="8" value="Demiss&#xe3;o por falta de presen&#xe7;a"/>
+                    <StringItem index="9" value="Demiss&#xe3;o por falta de respeito"/>
+                    <StringItem index="10" value="Demiss&#xe3;o por fal&#xea;ncia da empresa"/>
+                    <StringItem index="11" value="Demiss&#xe3;o por outros motivos"/>
+                    <StringItem index="12" value="Demiss&#xe3;o por motivos partic&#xfa;lares"/>
+                    <StringItem index="13" value="Entrega de lugar do funcion&#xe1;rio"/>
+                    <StringItem index="14" value="Acordo entre funcion&#xe1;rio/empresa"/>
+                    <StringItem index="15" value="Outros"/>
+                  </StringArray>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel24">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Observa&#xe7;&#xf5;es:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_observacao">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel15">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Refer&#xea;ncia:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_referencia">
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="99" red="99" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jImg_foto" alignment="1" max="32767" attributes="0"/>
+                          <Component id="jButton_inserirFoto" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jText_nomeFoto" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="jLabel25" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel26" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jButton_acessoSistema" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jButton_salarioFuncionario" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jLabel27" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel28" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jImg_foto" min="-2" pref="160" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton_inserirFoto" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jText_nomeFoto" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButton_acessoSistema" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel27" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel28" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton_salarioFuncionario" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jImg_foto">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="Padr&#xe3;o: 130x150 px"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                    <BevelBorder/>
+                  </Border>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton_inserirFoto">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="INSERIR FOTO"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_inserirFotoActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jText_nomeFoto">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="enabled" type="boolean" value="false"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel25">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Este funcion&#xe1;rio ter&#xe1; acesso,"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel26">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="ao sistema?"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton_acessoSistema">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="SIM"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_acessoSistemaActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton_salarioFuncionario">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="14" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="SIM"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_salarioFuncionarioActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel27">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Deseja cadastrar salario do"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel28">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="10" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="funcion&#xe1;rio?"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="f5" green="f5" red="f5" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton_atualizar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jSeparator1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator2" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jLabel29" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jCbx_cod_funcionario" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton_cod_funcionario" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jSeparator3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel31" alignment="0" min="-2" pref="316" max="-2" attributes="0"/>
+                                  <Component id="jCbx_nome_funcionario" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton_nome_funcionario" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="jCbx_cpf_funcionario" alignment="0" pref="219" max="32767" attributes="0"/>
+                                  <Component id="jLabel30" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton_cpf_funcionario" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jSeparator4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jCbx_cracha_funcionario" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jLabel32" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton_cracha_funcionario" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jSeparator1" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jButton_cod_funcionario" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="jLabel29" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jCbx_cod_funcionario" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jSeparator3" alignment="1" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jCbx_nome_funcionario" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jButton_nome_funcionario" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jSeparator2" min="-2" pref="2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel30" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jCbx_cpf_funcionario" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Component id="jButton_cpf_funcionario" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="jSeparator4" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jCbx_cracha_funcionario" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jButton_cracha_funcionario" alignment="1" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="jButton_atualizar" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="jButton_atualizar">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="ATUALIZAR"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_atualizarActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator1">
+              <Properties>
+                <Property name="orientation" type="int" value="1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel29">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="C&#xf3;digo do funcion&#xe1;rio:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jCbx_cod_funcionario">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton_cod_funcionario">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/rplorcamento/imagem/buscar.png"/>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_cod_funcionarioActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator2">
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel30">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="CPF:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jCbx_cpf_funcionario">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton_cpf_funcionario">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/rplorcamento/imagem/buscar.png"/>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_cpf_funcionarioActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator3">
+              <Properties>
+                <Property name="orientation" type="int" value="1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel31">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Nome:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jCbx_nome_funcionario">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton_nome_funcionario">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/rplorcamento/imagem/buscar.png"/>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton_nome_funcionarioActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JSeparator" name="jSeparator4">
+              <Properties>
+                <Property name="orientation" type="int" value="1"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel32">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Crach&#xe1;:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jCbx_cracha_funcionario">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="Item 1"/>
+                    <StringItem index="1" value="Item 2"/>
+                    <StringItem index="2" value="Item 3"/>
+                    <StringItem index="3" value="Item 4"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton_cracha_funcionario">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/rplorcamento/imagem/buscar.png"/>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Cursor em Forma de M&#xe3;o"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
